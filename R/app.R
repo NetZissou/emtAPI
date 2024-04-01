@@ -3,7 +3,7 @@
 #' @export
 app <- function() {
   shiny::shinyApp(
-    emthub::ui,
-    emthub::server
+    emtAPI::ui,
+    emtAPI::server
   )
 }
