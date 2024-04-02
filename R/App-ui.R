@@ -45,8 +45,8 @@ ui <- function() {
     selected = "Token",
 
     bslib::nav_panel(
-      "Token"
-
+      "Token",
+      tokenUI("token")
     )
   )
 }
